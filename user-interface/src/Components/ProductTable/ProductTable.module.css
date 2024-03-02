@@ -1,0 +1,55 @@
+.tableContainer {
+    border: 2px solid black;
+    height: 95vh;
+    overflow-y: scroll;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.customTable {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.customTable th,
+.customTable td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.customTable thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.customTable tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+/* Striped rows */
+.customTableStriped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Bordered */
+.customTableBordered {
+    border: 1px solid #dee2e6;
+}
+
+.customTableBordered th,
+.customTableBordered td {
+    border: 1px solid #dee2e6;
+}
+
+/* Hover effect */
+.customTableHover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.selectedRow{
+    font-weight: bold;
+}

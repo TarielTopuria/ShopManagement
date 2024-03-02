@@ -1,0 +1,10 @@
+
+.groupActionIcons {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    margin: 5px 5px 5px 0;
+    border: solid 2px black;
+    border-radius: 4px;
+    cursor: pointer;
+}

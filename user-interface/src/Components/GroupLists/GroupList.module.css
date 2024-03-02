@@ -1,0 +1,26 @@
+.groupListContainer {
+  height: 95vh;
+  overflow-y: scroll;
+  list-style-type: none;
+  font-size: large;
+  border: solid 2px black;
+  margin-right: 0;
+}
+
+.groupItem {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px 0px;
+}
+
+.subGroupList {
+  list-style-type: none;
+}
+
+.subGroup {
+  padding-left: 10px;
+}
+
+.selectedGroup {
+  font-weight: bold;
+}
